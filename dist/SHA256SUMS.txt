@@ -1,0 +1,2 @@
+c5f2a52bdf0557d6c6a53f41c220889a95d5fc89e9373a69020e875f496c4f72  BrichkaOverlay-Portable.zip
+5c157418d3d58ab10e5598c1b5f7dd1d345510df62e71c703bb22c4c26b1a392  BrichkaOverlay-Setup.exe
