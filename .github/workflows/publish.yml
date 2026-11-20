@@ -45,5 +45,5 @@ jobs:
             echo 'Release already exists; refusing to replace published files.'
             exit 1
           fi
-          gh release create "$RELEASE_TAG" dist/BrichkaOverlay-Setup.exe dist/BrichkaOverlay-Portable.zip dist/SHA256SUMS.txt --target "$GITHUB_SHA" --draft --title "Brichka Overlay $RELEASE_VERSION" --notes-file RELEASE-NOTES.md
+          gh release create "$RELEASE_TAG" dist/BrichkaOverlay-Setup.exe dist/BrichkaOverlay-Portable.zip dist/PawnIO.Modules-0.1.6-source.zip dist/SHA256SUMS.txt --target "$GITHUB_SHA" --draft --title "Brichka Overlay $RELEASE_VERSION" --notes-file RELEASE-NOTES.md
           gh release edit "$RELEASE_TAG" --draft=false --latest
